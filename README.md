@@ -45,11 +45,11 @@ $ serverless deploy (Or $ sls deploy)
 
 Enter data that you want to insert in /lib/data.json.
 
-$ curl -X POST -H "Content-Type: application/json" -d @lib/data.json  https://3wygecewse.execute-api.us-east-1.amazonaws.com/dev/devices
+$ curl -X POST -H "Content-Type: application/json" -d @lib/data.json  https://XXX.execute-api.us-east-1.amazonaws.com/dev/devices
 
 Note : put the url which is created when you deploy service.
 
 # 9.Get Device By ID
 
-$ curl https://3wygecewse.execute-api.us-east-1.amazonaws.com/dev/devices/"id7"
+$ curl https://XXX.execute-api.us-east-1.amazonaws.com/dev/devices/"id7"
 
